@@ -1,0 +1,102 @@
+.testimonies {
+  .illustration {
+
+  }
+  .title-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    span {
+      width: 300px;
+      font-weight: 500;
+      font-size: 34px;
+      line-height: 34px;
+      margin-top: 10px;
+    }
+  }
+  .testimony-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 96%;
+    height: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #EFFAFE;
+    margin: auto;
+    position: relative;
+    .testimony {
+      margin: 20px 0;
+      height: 75%;
+      width: 370px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: flex-start;
+      padding: 15px 30px;
+      border-radius: 20px;
+      box-shadow: 2px 2px 21px 23px rgba(233,243,247,1);
+      background-color: #ffffff;
+      position: relative;
+      .quote {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        border-radius: 20px;
+        background-color: #221F50;
+        border: 2px solid #ffffff;
+        position: absolute;
+        top: - 30px;
+        left: 70%;
+        span {
+          color: #ffffff;
+          font-size: 54px;
+          vertical-align: middle;
+        }
+      }
+      .text {
+        font-size: 12px;
+        font-weight: 500;
+      }
+      .user {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        font-size: 12px;
+        margin-top: 30px;
+        .name {
+          font-weight: 500;
+        }
+      }
+    }
+    .action {
+      position: absolute;
+      bottom: 22%;
+      right: 40%;
+      .btn {
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        border-radius: 12px;
+        margin: 5px;
+        border: 0;
+        color: #ffffff;
+      }
+      .prev {
+        background-color: #FF4B33;
+      }
+      .next {
+        background-color: #FECE67;
+      }
+    }
+  }
+  .company {
+
+  }
+}
