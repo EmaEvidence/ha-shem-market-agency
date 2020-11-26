@@ -1,0 +1,29 @@
+
+nav {
+  ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    a {
+      text-decoration: none;
+      background-color: transparent;
+    }
+    li {
+      margin: 0 10px;
+      color: #606B70;
+      font-weight: 600;
+      cursor: pointer;
+      background-color: transparent;
+    }
+    .sign-in {
+      color: #EBADAB
+    }
+    .sign-up {
+      color: #6D7093;
+      background-color: #EEF9FF;
+      padding: 5px 10px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  }
+}
