@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   margin: 40px 0;
   padding: 0 80px;
@@ -46,6 +47,8 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
+    height: auto;
     div {
       margin: 0 10px;
       svg {
@@ -53,6 +56,15 @@
         height: 30px;
         fill: #B5BCBD;
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .brands {
+    flex-direction: column !important;
+    .brand-list {
+      flex-direction: column !important;
     }
   }
 }

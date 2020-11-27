@@ -1,4 +1,7 @@
 <style>
+  .app-container {
+    max-width: 100vw;
+  }
 
   /* Responsive Styles */
   @media screen and (max-width: 767px) {
@@ -30,4 +33,6 @@
     }
   }
 </style>
-<router-outlet></router-outlet>
+<div class="app-container">
+  <router-outlet></router-outlet>
+</div>
