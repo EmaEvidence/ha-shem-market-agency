@@ -1,0 +1,29 @@
+.logo {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .logo-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+  }
+  .logo-d {
+    background-color: #FF4B33;
+  }
+  .logo-a {
+    background-color: #FECE67;
+    margin-left: -6px;
+  }
+  .text {
+    font-weight: 600;
+    font-size: 18px;
+    color: #4E527E;
+    margin-left: 5px;
+  }
+}

@@ -1,0 +1,83 @@
+
+nav {
+  ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    a {
+      text-decoration: none;
+      background-color: transparent;
+    }
+    li {
+      margin: 0 10px;
+      color: #606B70;
+      font-weight: 600;
+      cursor: pointer;
+      background-color: transparent;
+    }
+    .sign-in {
+      color: #EBADAB
+    }
+    .sign-up {
+      color: #6D7093;
+      background-color: #EEF9FF;
+      padding: 5px 10px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  }
+  .hamburger {
+    display: none;
+  }
+  .hamburger {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .hamburger-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    left: -100px;
+  }
+  
+  .hamburger:hover .hamburger-content {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  nav {
+    ul {
+      display: none;
+    }
+  }
+  .hamburger {
+    display: inline;
+    svg {
+      height: 30px;
+      width: 30px;
+      fill: #4E527E;
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  nav {
+    ul {
+      display: none;
+    }
+  }
+  .hamburger {
+    display: inline;
+    svg {
+      height: 30px;
+      width: 30px;
+      fill: #4E527E;
+    }
+  }
+}

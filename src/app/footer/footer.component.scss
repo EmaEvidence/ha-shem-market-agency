@@ -1,0 +1,130 @@
+footer {
+  min-height: 400px;
+  background-color: #1C2535;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  .footer-text {
+    color: #676E78;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    flex-wrap: wrap;
+    .about {
+      width: 350px;
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      .about-text {
+        margin: 10px 0;
+      }
+      .social-wrapper {
+        margin-top: 5px;
+        .title {
+          color: #ffffff;
+        }
+        .item {
+          margin-right: 5px;
+          svg {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .links {
+      width: 150px;
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      .link {
+        margin: 15px 0;
+        cursor: pointer;
+      }
+      h5 {
+        padding: 0;
+        margin: 0;
+        color:#ffffff;
+        font-weight: 500;
+      }
+      ul {
+        list-style-type: none;
+        list-style-position: outside;
+        padding: 0;
+      }
+    }
+    .contact {
+      width: 250px;
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      h5 {
+        padding: 0;
+        margin: 0;
+        color:#ffffff;
+        font-weight: 500;
+      }
+      .link {
+        margin: 30px 0 10px 0;
+        cursor: pointer;
+      }
+      .email {
+        height: 30px;
+        background-color: #ffffff;
+        border: 0;
+        padding: 0 10px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+      }
+      .submit {
+        height: 30px;
+        background-color: #E9513D;
+        border: 0;
+        padding: 0 20px;
+        color: #ffffff;
+        border-radius: 5px;
+        margin-left: -10px;
+      }
+    }
+  }
+  .copywrite {
+    width: 80%;
+    border-top: 2px solid #2E3544;
+    text-align: center;
+    padding: 20px 0;
+    span {
+      color: #2E3544;
+    }
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  footer {
+    .items {
+      justify-content: center;
+      .about {
+        width: 60%;
+      }
+      .links {
+        width: 60%;
+      }
+      .contact {
+        width: 60%;
+      }
+    }
+  }
+}
