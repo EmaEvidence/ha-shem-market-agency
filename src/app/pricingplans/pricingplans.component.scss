@@ -1,6 +1,10 @@
 .price-plan {
   background-color: #EFFAFE;
-  padding: 80px 0;
+  .container {
+    padding: 80px 0;
+    max-width: 65%;
+    margin: auto;
+  }
   .title-wrapper {
     display: flex;
     flex-direction: row;
@@ -21,7 +25,7 @@
     flex-wrap: wrap;
     .plan {
       cursor: pointer;
-      box-shadow: 2px 2px 20px 0px rgba(50, 50, 50, 0.75);
+      box-shadow: 2px 2px 8px 0px #97C9F3;
       margin: 20px;
       background-color: #ffffff;
       padding: 20px;
@@ -101,11 +105,22 @@
           display: flex;
           align-items: center;
           justify-content: center;
+          svg {
+            width: 15px;
+            height: 15px;
+            fill: #000000;
+          }
         }
       }
+      .orange-modifier {
+        background-color: #FECD65;
+      }
+      .navy-modifier {
+        background-color: #16124B;
+      };
     }
     .plan:hover {
-      box-shadow: 2px 2px 12px 0px rgba(50, 50, 50, 0.75);
+      box-shadow: 2px 2px 12px 0px #97C9F3;
     } 
   }
 }
