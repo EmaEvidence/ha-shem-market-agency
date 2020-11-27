@@ -111,3 +111,20 @@ footer {
     }
   }
 }
+
+@media only screen and (max-width: 575px) {
+  footer {
+    .items {
+      justify-content: center;
+      .about {
+        width: 60%;
+      }
+      .links {
+        width: 60%;
+      }
+      .contact {
+        width: 60%;
+      }
+    }
+  }
+}
