@@ -1,12 +1,24 @@
 .testimonies {
+  padding-top: 30px;
+  position: relative;
   .illustration {
-
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    background-image: url("../../assets/undraw_Hello_qnas.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    z-index: 1000;
   }
   .title-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    width: 450px;
+    margin: auto;
+    margin-bottom: 30px;
     span {
       width: 300px;
       font-weight: 500;
@@ -57,11 +69,17 @@
           color: #ffffff;
           font-size: 54px;
           vertical-align: middle;
+          svg {
+            fill: #ffffff;
+            width: 30px;
+            height: 30px;
+          }
         }
       }
       .text {
         font-size: 12px;
         font-weight: 500;
+        margin-top: 40px;
       }
       .user {
         display: flex;
@@ -87,6 +105,11 @@
         margin: 5px;
         border: 0;
         color: #ffffff;
+        svg {
+          width: 15px;
+          height: 15px;
+          fill: #ffffff;
+        }
       }
       .prev {
         background-color: #FF4B33;
@@ -97,6 +120,18 @@
     }
   }
   .company {
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    span {
+      color: #9593AC;
+      font-weight: 500;
+    }
+    svg {
+      width: 20px;
+      height: 20px;
+      fill: #9593AC;
+      margin-right: 5px;
+    }
   }
 }

@@ -4,11 +4,12 @@
   justify-content: space-between;
   align-items: center;
   margin: 40px 0;
+  padding: 0 80px;
   .title-wrapper {
     height: 70px;
     width: 150px;
     border-radius: 5px;
-    border: 1px solid ;
+    border: 1px solid #F8F8F9;
     margin-right: 40px;
     padding: 20px;
     div {
@@ -27,6 +28,11 @@
         position: absolute;
         right: -40px;
         bottom: 25%;
+        svg {
+          height: 20px;
+          width: 40px;
+          fill: #5F6276;
+        }
       }
     }
   }
@@ -42,6 +48,11 @@
     align-items: center;
     div {
       margin: 0 10px;
+      svg {
+        width: 100px;
+        height: 30px;
+        fill: #B5BCBD;
+      }
     }
   }
 }

@@ -33,7 +33,12 @@ footer {
           color: #ffffff;
         }
         .item {
-          margin: 5px;
+          margin-right: 5px;
+          svg {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+          }
         }
       }
     }
